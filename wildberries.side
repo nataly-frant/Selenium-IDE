@@ -1,0 +1,518 @@
+{
+  "id": "ea0e0b75-244a-45b0-8cdd-212312a6667a",
+  "version": "2.0",
+  "name": "wildberries",
+  "url": "https://www.wildberries.ru/",
+  "tests": [{
+    "id": "9343b342-3a16-4e30-9c79-ff8e32f2b5b4",
+    "name": "Выбрать местоположение",
+    "commands": [{
+      "id": "967bf89b-4762-4364-b2b8-be76f52763c3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.wildberries.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8ac0156-bc71-4e7d-9f3d-ae395d0a17e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1269x799",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "181dc7d8-7279-46ff-905f-f41c76e0b344",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-element__logo > img",
+      "targets": [
+        ["css=.nav-element__logo > img", "css:finder"],
+        ["xpath=//img[@alt='Wildberries']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc063e75-20f3-4d20-8079-070a8acb4f49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.simple-menu__link--address",
+      "targets": [
+        ["css=.simple-menu__link--address", "css:finder"],
+        ["xpath=//li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Москва')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d54ede13-f306-47e2-9d42-753ff02fef24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ymaps-2-1-78-searchbox-input__input",
+      "targets": [
+        ["css=.ymaps-2-1-78-searchbox-input__input", "css:finder"],
+        ["xpath=//ymaps[@id='id_1622207639436450338376']/ymaps/ymaps/ymaps/input", "xpath:idRelative"],
+        ["xpath=//ymaps/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1c783c5-a15a-4f78-af4c-af8e7522700a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ymaps-2-1-78-searchbox-input__input",
+      "targets": [
+        ["css=.ymaps-2-1-78-searchbox-input__input", "css:finder"],
+        ["xpath=//ymaps[@id='id_1622207639436450338376']/ymaps/ymaps/ymaps/input", "xpath:idRelative"],
+        ["xpath=//ymaps/input", "xpath:position"]
+      ],
+      "value": "Санкт-Петербург"
+    }, {
+      "id": "dcb3b049-f033-4a25-8f19-da020a249aed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ymaps-2-1-78-searchbox-button-text",
+      "targets": [
+        ["css=.ymaps-2-1-78-searchbox-button-text", "css:finder"],
+        ["xpath=//ymaps[@id='id_1622207639436450338376']/ymaps/ymaps[2]/ymaps/ymaps", "xpath:idRelative"],
+        ["xpath=//ymaps/ymaps/ymaps/ymaps/ymaps/ymaps/ymaps/ymaps[2]/ymaps/ymaps", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9500ce72-ce2a-4432-920a-acd0439dcd89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.popup__close-btn",
+      "targets": [
+        ["css=.popup__close-btn", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96095d31-99a6-4eb0-88a9-e6de8a91bb03",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.simple-menu__link--address",
+      "targets": [
+        ["css=.simple-menu__link--address", "css:finder"],
+        ["xpath=//li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Москва')]", "xpath:innerText"]
+      ],
+      "value": "Санкт-Петербург"
+    }]
+  }, {
+    "id": "0d5e7fab-12fe-424d-bae7-71314d7073a0",
+    "name": "Поиск товара",
+    "commands": [{
+      "id": "edbd7790-ab54-460e-a88d-6aafea349e70",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.wildberries.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0000bcc7-f810-4028-a688-1a4d2bced74c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1269x799",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e055cef-69b3-4943-934f-9cda84041c25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-element__logo > img",
+      "targets": [
+        ["css=.nav-element__logo > img", "css:finder"],
+        ["xpath=//img[@alt='Wildberries']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "433c750e-57dd-45f0-9cdd-b40eab1b9501",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-catalog__input",
+      "targets": [
+        ["css=.search-catalog__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef4b9fe4-5ef0-47a5-9769-0a47302a7a1c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-catalog__input",
+      "targets": [
+        ["css=.search-catalog__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "платье"
+    }, {
+      "id": "4d47ade9-b03c-4855-a06a-a3f334eb994b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-catalog__btn--search",
+      "targets": [
+        ["css=.search-catalog__btn--search", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Поиск товара')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa7ad47-383b-4296-9caa-c093eb0934d8",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=платье женское одежда",
+      "targets": [
+        ["linkText=платье женское одежда", "linkText"],
+        ["css=.tags-group-list:nth-child(1) > .tags-group-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'платье женское одежда')]", "xpath:link"],
+        ["xpath=//div[@id='catalog-content']/section/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/0/search.aspx?search=%d0%bf%d0%bb%d0%b0%d1%82%d1%8c%d0%b5+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d0%be%d0%b5+%d0%be%d0%b4%d0%b5%d0%b6%d0%b4%d0%b0&targeturl=ST&xsearch=true')]", "xpath:href"],
+        ["xpath=//section/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'платье женское одежда')]", "xpath:innerText"]
+      ],
+      "value": "платье женское одежда"
+    }, {
+      "id": "61d84ebe-05b3-4a65-96cb-7e05a230b799",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=платье женское",
+      "targets": [
+        ["linkText=платье женское", "linkText"],
+        ["css=.tags-group-list:nth-child(1) > .tags-group-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'платье женское')])[2]", "xpath:link"],
+        ["xpath=//div[@id='catalog-content']/section/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/0/search.aspx?search=%d0%bf%d0%bb%d0%b0%d1%82%d1%8c%d0%b5+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d0%be%d0%b5&targeturl=ST&xsearch=true')]", "xpath:href"],
+        ["xpath=//section/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "платье женское"
+    }]
+  }, {
+    "id": "16b2003d-df1c-4620-8897-8149fc5b1df1",
+    "name": "Переход по страницам",
+    "commands": [{
+      "id": "9032d9a6-449f-4896-b653-1e19123fde2e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.wildberries.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2041b410-8eb0-4c8b-82d8-2a85c4505f37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1269x799",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9548951a-212d-4895-bcf9-772ede502d06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-element__logo > img",
+      "targets": [
+        ["css=.nav-element__logo > img", "css:finder"],
+        ["xpath=//img[@alt='Wildberries']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4419f45a-bf65-4188-b3cd-582915a8f2fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Адреса",
+      "targets": [
+        ["linkText=Адреса", "linkText"],
+        ["css=#head-pick-point-address > .navbar-pc__link", "css:finder"],
+        ["xpath=//div[@id='head-pick-point-address']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/besplatnaya-dostavka#terms-delivery')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Адреса')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6be5a90-eb55-4bc6-9c48-8a4fe682fee1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Адреса",
+      "targets": [
+        ["linkText=Адреса", "linkText"],
+        ["css=#head-pick-point-address > .navbar-pc__link", "css:finder"],
+        ["xpath=//div[@id='head-pick-point-address']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/besplatnaya-dostavka#terms-delivery')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Адреса')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bcb23c8-e94f-473d-b111-5c4c0f17ae28",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=terms-delivery",
+      "targets": [
+        ["id=terms-delivery", "id"],
+        ["css=#terms-delivery", "css:finder"],
+        ["xpath=//h2[@id='terms-delivery']", "xpath:attributes"],
+        ["xpath=//main[@id='body-layout']/div/div[4]/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Информация о доставке и пунктах выдачи')]", "xpath:innerText"]
+      ],
+      "value": "Информация о доставке и пунктах выдачи"
+    }, {
+      "id": "9d2da3e8-c136-4bd0-bf81-34cb59ff917c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.navbar-pc__icon--address",
+      "targets": [
+        ["css=.navbar-pc__icon--address", "css:finder"],
+        ["xpath=//div[@id='head-pick-point-address']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6e94201-fed3-4794-9acd-e8e253dfda89",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.navbar-pc__icon--address",
+      "targets": [
+        ["css=.navbar-pc__icon--address", "css:finder"],
+        ["xpath=//div[@id='head-pick-point-address']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e41c123-9ecb-4c48-acd9-948e455de782",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-element__logo > img",
+      "targets": [
+        ["css=.nav-element__logo > img", "css:finder"],
+        ["xpath=//img[@alt='Wildberries']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52196f13-d795-41ac-ad68-6e201c079840",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Войти",
+      "targets": [
+        ["linkText=Войти", "linkText"],
+        ["css=.j-main-login", "css:finder"],
+        ["xpath=//div[@id='basketContent']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/security/login?returnUrl=https%3A%2F%2Fwww.wildberries.ru%2F')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebef035f-6f36-4661-94df-3255e726fc83",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.c-h2-v1:nth-child(1)",
+      "targets": [
+        ["css=.c-h2-v1:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='spaAuthForm']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Войти под номером')]", "xpath:innerText"]
+      ],
+      "value": "Войти под номером"
+    }, {
+      "id": "d8c70c2a-73c9-4b77-bf26-a2c2fed7d48e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-pc__icon--basket",
+      "targets": [
+        ["css=.navbar-pc__icon--basket", "css:finder"],
+        ["xpath=//div[@id='basketContent']/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'17')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d032f266-bbb5-477e-a3aa-20b673f95dcf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'В корзине пока ничего нет')]", "xpath:innerText"]
+      ],
+      "value": "В корзине пока ничего нет"
+    }, {
+      "id": "abf71e0b-7be2-4af6-b339-c3293adf68d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-element__logo > img",
+      "targets": [
+        ["css=.nav-element__logo > img", "css:finder"],
+        ["xpath=//img[@alt='Wildberries']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8077fa5b-507c-4307-a7ec-16281f4f7b5a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Бесплатная доставка",
+      "targets": [
+        ["linkText=Бесплатная доставка", "linkText"],
+        ["css=.simple-menu__item:nth-child(3) > .simple-menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Бесплатная доставка')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/services/besplatnaya-dostavka')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бесплатная доставка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e76b4747-8a29-49e3-b338-d132a2ad451e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Как сделать заказ",
+      "targets": [
+        ["linkText=Как сделать заказ", "linkText"],
+        ["css=.sidemenu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Как сделать заказ')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/kak-sdelat-zakaz')]", "xpath:href"],
+        ["xpath=//main/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Как сделать заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "280b9fe0-f834-4482-a45f-875950ef9f54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Способы оплаты",
+      "targets": [
+        ["linkText=Способы оплаты", "linkText"],
+        ["css=.sidemenu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Способы оплаты')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/sposoby-oplaty')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Способы оплаты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c95d8c07-9ff5-4c55-a3ea-89e874421173",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Доставка",
+      "targets": [
+        ["linkText=Доставка", "linkText"],
+        ["css=.sidemenu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Доставка')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/services/besplatnaya-dostavka')])[3]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Доставка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53af1088-4a5d-4945-a2eb-97ae093fe84f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Возврат товара",
+      "targets": [
+        ["linkText=Возврат товара", "linkText"],
+        ["css=.sidemenu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Возврат товара')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/vozvrat-tovara')]", "xpath:href"],
+        ["xpath=//main/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Возврат товара')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89747bf4-7fd5-499c-977a-1ab2956e2eab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Возврат денежных средств",
+      "targets": [
+        ["linkText=Возврат денежных средств", "linkText"],
+        ["css=.sidemenu > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Возврат денежных средств')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/vozvrat-denezhnyh-sredstv')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Возврат денежных средств')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "604dd106-977c-41d0-a890-3f96fc40af4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Правила продажи",
+      "targets": [
+        ["linkText=Правила продажи", "linkText"],
+        ["css=.sidemenu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Правила продажи')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/pravila-prodazhi')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Правила продажи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44209959-6562-41b6-8a0e-79e0244f06f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Правила пользования торговой площадкой",
+      "targets": [
+        ["linkText=Правила пользования торговой площадкой", "linkText"],
+        ["css=.sidemenu > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Правила пользования торговой площадкой')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/pravila-polzovaniya-torgovoy-ploshchadkoy')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Правила пользования торговой площадкой')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "755bc2d7-7d46-43d8-9a4b-a3df81461710",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Вопросы и ответы",
+      "targets": [
+        ["linkText=Вопросы и ответы", "linkText"],
+        ["css=.sidemenu > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Вопросы и ответы')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/voprosy-i-otvety')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вопросы и ответы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfec463f-43e4-4be5-a4da-a4488b8f7c7e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вопросы и ответы",
+      "targets": [
+        ["linkText=Вопросы и ответы", "linkText"],
+        ["css=.sidemenu > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Вопросы и ответы')]", "xpath:link"],
+        ["xpath=//main[@id='body-layout']/div/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/voprosy-i-otvety')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вопросы и ответы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0c02a345-95b0-4199-bd24-a4d509aa5c30",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.wildberries.ru/"],
+  "plugins": []
+}
